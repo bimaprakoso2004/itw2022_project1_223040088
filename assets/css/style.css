@@ -1,0 +1,123 @@
+/* Fonts */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswald-demibold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-medium-webfont.woff') format('woff');
+}
+
+.font-poppins { font-family: 'Poppins', sans-serif; }
+.font-oswald { font-family: 'Oswald', sans-serif; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+
+/* Background Color */
+.bg-main { background-color: #36535D !important;}
+.bg-1 { background-color: #CEB8A6; }
+.bg-2 { background-color: #E9CCB1; }
+.bg-3 { background-color: #EBCFC4; }
+.bg-4 { background-color: #D3C4BE; }
+
+/* Text */
+.text-main { color: #FDFCFA; }
+.text-sec { color: #EAE4D9; }
+.text-main-dark { color: #333; }
+
+/* Link */
+.link-main { color: #FDFCFA; text-decoration: none; }
+.link-sec { color: #EAE4D9; text-decoration: none; }
+.link-main-dark { color: #333; text-decoration: none; }
+
+.link-main:hover { color: #94938f; }
+.link-sec:hover { color: #a5a095; }
+.link-main-dark:hover { color: rgb(105, 102, 102); }
+
+/* Button */
+.btn { border-radius: 50%; }
+
+.btn-1 {
+  color: #333 !important;
+  background-color: #CEB8A6 !important;
+}
+.btn-1:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #ac9888 !important;
+}
+
+.btn-2 {
+  color: #333 !important;
+  background-color: #E9CCB1 !important;
+}
+.btn-2:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #ceb59d !important;
+}
+
+.btn-3 {
+  color: #333 !important;
+  background-color: #EBCFC4 !important;
+}
+.btn-3:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #c9b1a7 !important;
+}
+
+.btn-4 {
+  color: #333 !important;
+  background-color: #D3C4BE !important;
+}
+.btn-4:hover {
+  color: rgb(46, 44, 44) !important;
+  background-color: #ac9f9a !important;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 100vh;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.rounded-lg {
+  border-radius: 40px !important;
+}
+
+.testi-card {
+  background: #EAE4D9 !important;
+  border: none !important;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  object-fit: cover !important;
+}
+
+.mr-2 {
+  margin-right: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.25rem;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
